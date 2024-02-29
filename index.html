@@ -13,6 +13,8 @@
     <style>
       body {
         margin-top: 70px;
+        background: #333;
+        color: white;
       }
     </style>
   </head>
@@ -22,6 +24,7 @@
       <div class="row">
         <div class="col-md-6">
           <h1 class="display-4 text-center">Weight Converter</h1>
+          <!-- Weight Input -->
           <form>
             <div class="form-group">
               <input
@@ -35,21 +38,21 @@
 
           <!-- Conversion Outputs -->
           <div id="output">
-            <div class="card">
+            <div class="card bg-primary mb-2">
               <div class="card-block">
                 <h4>Grams:</h4>
                 <div id="gramsOutput"></div>
               </div>
             </div>
 
-            <div class="card">
+            <div class="card bg-success mb-2">
               <div class="card-block">
                 <h4>Kilograms:</h4>
                 <div id="KgOutput"></div>
               </div>
             </div>
 
-            <div class="card">
+            <div class="card bg-danger mb-2">
               <div class="card-block">
                 <h4>Ounces:</h4>
                 <div id="ozOutput"></div>
@@ -60,5 +63,7 @@
         </div>
       </div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
